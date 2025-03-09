@@ -13,14 +13,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 
+
 h1 {
     font-family: "Vogue";
     font-weight: 100;
 }
 
-.row-2 > .col-12 {
+.row-2 > div {
     position: absolute;
-    top: 57%;
+    bottom: 0%;
+    border-radius: 50%;
     background-image: url(flor.webp);
     background-color: aqua;
     width: 300px;
@@ -31,22 +33,24 @@ h1 {
 .letras {
     font-size: 2.2em;
     position: relative;
-    top: 30%;
+    top:20%;
     left: 20%;
     font-family: "Noto Serif Display", serif;
 }
 
 h3 {
     font-family: 'Bodoni Moda';
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
-    text-align: center;
-    margin: 20px;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 20px;
 }
 
 p {
-    text-align: center;
+    text-align: right;
     font-family: 'Bodoni Moda';
+    margin-right: 60px;
     font-weight: 500;
     font-size: 1.2em;
     color: rgba(44, 44, 44, 0.792);
